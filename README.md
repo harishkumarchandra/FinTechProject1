@@ -1,8 +1,17 @@
-# **The Gold Standard**
-
-![](https://coinweek.com/wp-content/uploads/2011/09/gold_standard.jpg)
+# **The Value of Time**
 
 ## **Background**
+
+I came to this country in 2015. I started my carrer in manufacturing field as CNC programmer. I worked very hard get paid 20$/hour. I had to compete with Manufactures in China who can do my work for lesser pay. I switched my carrer to Information Technology and started getting paid 45$/hour for same amount work I used to work in manufacturing field. The Time I spend didn't change but value of Time did change. This raised a question how Time is valued differently in different countries. To answer this question we have to make two assumptions. First is common currency accepted gloablly, for this we choose Gold. Second is global hourly wage , for this we choose minimum wage in each country.
+
+## **Data Cleaning and Preparation**
+
+The Price of Gold using the Philadelphia Gold and Silver Index INDEXNASDAQ: XAU 
+https://www.investing.com/currencies/xau-usd-historical-data 	
+
+The hourly minimum wage from:
+https://stats.oecd.org/Index.aspx?DataSetCode=RMW#
+
 The Gold Standard
 
 Currency has played a major role in society for thousands of years. Having an established currency was the mark of humanity's first step towards "functioning modern society". Throughout history, one precious metal has stood as an inherit symbol of monetary value and that metal is none other than gold. 
