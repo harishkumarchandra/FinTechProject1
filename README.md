@@ -78,21 +78,36 @@ tbl = MC_GOLD.summarize_cumulative_return()
 
 ### **Plots**
 
+![Gold_Price](/Resources/Images/Gold_Price.png)
+![Hourly_Minimum_Wage_from_2000-2019](/Resources/Images/Hourly_Minimum_Wage_from_2000-2019.png)
+![Hourly_Minimum_Wage_around_the_World_2000-2019](/Resources/Images/Hourly_Minimum_Wage_around_the_World_2000-2019.png)
+![Number_of_Hours_to_Purchase_1_oz_of_Gold](/Resources/Images/Number_of_Hours_to_Purchase_1_oz_of_Gold.png)
+![Number_of_Hours_to_Purchase_1_oz_o_Gold_in_2019](/Resources/Images/Number_of_Hours_to_Purchase_1_oz_o_Gold_in_2019.png)
 
-Currency has played a major role in society for thousands of years. Having an established currency was the mark of humanity's first step towards "functioning modern society". Throughout history, one precious metal has stood as an inherit symbol of monetary value and that metal is none other than gold. 
+![Top_5_countries_with_highest minimum_wage](/Resources/Images/Top_5_countries_with_highest_minimum_wage.png)
 
-Around 700 B.C., Lydians made gold into coins, which was the first time in history, or at least the first recorded instance, a society established a standardized currency system for exchange. Gold was always desired and valuable prior to this point, but this act formally solidified its power to function as a monetary unit. 
+![MCSimulation_Gold](/Resources/Images/MCSimulation_Gold.png)
 
-As more societies emerged around the world, more currencies came into being. Utilizing improved modes of transportation, countries began to engage in commerce with each other, and a global economic framework eventually took shape. 
+### **Conclusion**
 
-Countries all established different currencies, yet all mutually recognized gold as a valuable commodity. To facilitate trading, many countries adopted the gold standard or simply settled traded disputes with gold, since all countries had a common conception of gold's value. At the end of the 1800's, a formally written and established internationally gold standard was agreed upon by the majority of developed nations.
+- Plot **GOLD Prices from 2000 to 2019** shows that there is an up trend in Gold price. So we can conclude that the number of hours need to work to earn gold will also increase.
 
-Although the gold standard could not survive as a long term monetary system, gold still exists as a physical commodity of value that most developed nations collectively recognize and purchase regularly. 
+- Plot ***Hourly Minimum Wage from 2000 to 2019** shows that minimum wage has increased in past years. Howerver in comparaion to Gold trend plot the minimum wage growth is less. Therefore it will be diffcult to earn gold in futrue if the trend continues.
 
-Gold's significance in the history of commerce and the maintained international understanding makes it the perfect benchmark to compare the buying power of different currencies. Our project aims to draw insights from the buying power of different currencies using gold as the standard to determine each of their value. 
+- Plot **Hourly Minimum Wage around the World for 2019** shows different hourly minimum wage in different countires. This infers that number of hours need to work to earn gold will differs vastly 
+based on the country.
 
-- How many hours should a person in each country work to 
-        buy 1 troy oz of gold?
-- Drawing living standard of each country insights
+- Plot **Number of Hours to Purchase 1 oz of Gold** shows each country's gold buying capacity. In 2019 with Mexico's minimum wage of 1.2$ it will take an Mexican 1160 hours to earn 1 oz of Gold. In US with minimum wage of 7.3$ it will take an American 190 hours to earn 1 oz of Gold which is 10 times lesser than Mexico. 
+
+- Plot **Number of Hours to Purchase 1 oz of Gold in 2019** shows a world map of
+buying power distribtion. The bigger the circle the higher the number of hours need to work to earn gold. All cricle in neighbouring countries in Europe grows smoothly. Whereas the circle between US and Mexico has a huge jump in size which may lies as the root cause of border issues between countries.
+
+- Plot **Top 5 countries with highest minimum wage** show Australia, Belgium, France, Luxembourg, Netherlands as Top countries with minimum wage in 2019. USA is not in the top 5. In 2001 all 5 counties started around 10.8 However Australia moved to the top in 2019 with 2019. An Australian needs to work only 110 hours to earn 1 oz of gold.
+
+- Plot **MCSimulation_Gold** show 500 simulation of Gold price in next 5 years. 1 oz of Gold roughly cost 1500$. 1500$ invested in Gold now has 95% chance that it will turn into 2007.14$ and there is a 5% chance it will turn into 461.81$
+
+
+
+
 
 
