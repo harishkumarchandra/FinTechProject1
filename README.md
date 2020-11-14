@@ -15,11 +15,11 @@ I came to this country in 2015. I started my carrer in manufacturing field as CN
 
 #### **Gold**
 Drop unnecessary columns
-```
+```python
 gold_price_df.drop(columns=['Open','High','Low','Change %'],inplace=True)
 ```
 Data Conversion From String to Float
-```
+```python
 gold_price_df['Price'] = gold_price_df['Price'].str.replace(',','')
 gold_price_df['Price'] = gold_price_df['Price'].astype(float)
 ```
