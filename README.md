@@ -6,11 +6,13 @@ I came to this country in 2015. I started my carrer in manufacturing field as CN
 
 ## **Data Cleaning and Preparation**
 
-The Price of Gold using the Philadelphia Gold and Silver Index INDEXNASDAQ: XAU 
-https://www.investing.com/currencies/xau-usd-historical-data 	
+### **Data Source**
 
-The hourly minimum wage from:
-https://stats.oecd.org/Index.aspx?DataSetCode=RMW#
+We obtained the Price of Gold for past 20 years using the [Philadelphia Gold and Silver Index INDEXNASDAQ: XAU](https://www.investing.com/currencies/xau-usd-historical-data) 	
+And we obtained past 20 year hourly minimum wage for 32 countries from [Organisation of Economics Co-operation and Development](https://stats.oecd.org/Index.aspx?DataSetCode=RMW#)
+
+### **Data Cleaning**
+
 
 The Gold Standard
 
