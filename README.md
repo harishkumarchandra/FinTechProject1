@@ -8,11 +8,19 @@ I came to this country in 2015. I started my carrer in manufacturing field as CN
 
 ### **Data Source**
 
-We obtained the Price of Gold for past 20 years using the [Philadelphia Gold and Silver Index INDEXNASDAQ: XAU](https://www.investing.com/currencies/xau-usd-historical-data) 	
-And we obtained past 20 year hourly minimum wage for 32 countries from [Organisation of Economics Co-operation and Development](https://stats.oecd.org/Index.aspx?DataSetCode=RMW#)
+- We obtained the Price of Gold for past 20 years using the [Philadelphia Gold and Silver Index INDEXNASDAQ: XAU](https://www.investing.com/currencies/xau-usd-historical-data)
+- We obtained past 20 year hourly minimum wage for 32 countries from [Organisation of Economics Co-operation and Development](https://stats.oecd.org/Index.aspx?DataSetCode=RMW#)
 
 ### **Data Cleaning**
 
+#### **Gold**
+Drop unnecessary columns
+'''gold_price_df.drop(columns=['Open','High','Low','Change %'],inplace=True)'''
+Data Conversion From String to Float
+'''gold_price_df['Price'] = gold_price_df['Price'].str.replace(',','')
+gold_price_df['Price'] = gold_price_df['Price'].astype(float)'''
+
+#### **Wage**
 
 The Gold Standard
 
